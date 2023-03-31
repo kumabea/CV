@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Rosario', sans-serif;
+    font-size: 20px;
+    color: #40514E;
+    
+}
+
+h1 {
+    margin-top: 50px auto 0 auto;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 5.625rem;
+    color:#59A1A5;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Rosario', sans-serif;
+    font-size: 2.5rem;
+    color:#59A1A5;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Rosario', sans-serif;
+    color:#137A7F;
+}
+
+a {
+    color:#137A7F;
+    font-family: 'Rosario', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+
+    color: #EAF6F6;
+}
+
+div {
+    background-color: #C8E8E7;
+    
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.top-container {
+    background-color: #C8E8E7 ;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    padding: 100px 0px;
+    
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px
+}
+
+.webdev {
+    text-decoration: underline;
+}
+
+.student-skill  {
+    width: 30%;
+    margin: auto;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.gamemaker {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+    
+}
+.webDevv {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+.camera {
+    width:20%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.student-skill {
+    clear: left;
+}
+
+.btn {
+    background: #adbec9;
+    background-image: -webkit-linear-gradient(top, #adbec9, #00609c);
+    background-image: -moz-linear-gradient(top, #adbec9, #00609c);
+    background-image: -ms-linear-gradient(top, #adbec9, #00609c);
+    background-image: -o-linear-gradient(top, #adbec9, #00609c);
+    background-image: linear-gradient(to bottom, #adbec9, #00609c);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: 'Rosario', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+
+  .contact-note {
+    
+  }
