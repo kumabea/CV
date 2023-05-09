@@ -1,66 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brie Grey</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Rosario&display=swap" rel="stylesheet">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brie Grey</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Rosario&display=swap" rel="stylesheet">
+
+
 </head>
+
 <body>
-<div class="top-container">
+  <div class="top-container">
     <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
     <h1>Hey, I'm Brie!</h1>
-    <h2>a <span class="webdev">web dev</span> student.</h2>
+    <h2><span class="multiText"></span></h2>
     <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
     <img src="images/mountain.png" alt="mountain">
-</div>
-<div class="middle-container">
+  </div>
+  <div class="middle-container">
     <div class="profile">
       <img src="images/chanoir.png" alt="briencat">
       <h2>Hello.</h2>
-      <p class="student-skill">I am a web development student. I co-own TwoReel. Chad Starbucks enjoyer</p>
-    </div>
+      <p class="student-skill">I am a web development student. Silly Starbucks enjoyer</p>
+  </div>
     <hr>
     <div class="skills">
       <h2>My Skills.</h2>
       <div class="skill-row">
         <img class="webDevv" src="images/webdev-img.png" alt="webdevicon">
         <h3>Web Development</h3>
-        <p>I LOVE learning about web development and everything surrounding it. Constantly on the lookout for new ideas.</p>
+        <p>I love learning about possible ways of developping apps and websites. I am constantly on the lookout for new
+          ideas.
+        <ul>
+          <li>HTML⭐⭐⭐⭐</li>
+          <li>CSS ⭐⭐⭐</li>
+          <li>Javascript ⭐</li>
+        </ul>
+        <!--INSERT HERE THINGS I HAVE DONE + GITHUB? MAYBE BELOW-->
+        </p>
       </div>
       <div class="skill-row">
         <img class="gamemaker" src="images/gamemaking.png" alt="gamemakingicon">
         <h3>Game coding</h3>
-        <p>Learning how to code her own game.</p>
+        <p>On my freetime, I look into game creation and design using a few engines. Still new at it
+        <ul>
+          <li>Unity 🎮</li>
+          <li>Unreal Engine 🎮</li>
+
+        </ul>
+        </p>
       </div>
-      <div class="skill-row">
-        <img class="camera" src="images/camera.png" alt="Schnappen">
-        <h3>Old school photography</h3>
-        <p>I recently got into photography, analog photography! I own a Minolta SRT-201, it's over 50 years old, and works great!</p>
+      <hr>
+      
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Did anything catch your eye?</h3>
+        <p class="contact-note">Saw anything sweet? If so, hit me up and we can talk about over Starbucks!</p>
+        <a class="btn" href="mailto:info@tworeel.net">Message me!</a>
       </div>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Did anything catch your eye?</h3>
-      <p class="contact-note">Saw anything sweet? If so, hit me up and we can talk about over Starbucks!</p>
-      <a class="btn" href="mailto:info@tworeel.net">Message me!</a>
+
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="github.com">GitHub</a>
+      <a class="footer-link" href="tworeel.net">Website</a>
+      <p>©2022 Brie Grey.</p>
     </div>
-  </div>
-  
-  
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p>©2022 Brie Grey.</p>
-  </div>
-  
+    <!--SCRIPTING AREA FR ANIMATION-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typingAnimation = new Typed(".multiText", {
+          strings: ["a Web Development Student", "a Game Developper Amateur", "an Analog Photographer", "a Coffee Addict!"],
+          loop: true,
+          typeSpeed: 160,
+          backSpeed: 150,
+          backDelay: 1500
+      })
+  </script>
+
+
 </body>
+
 </html>

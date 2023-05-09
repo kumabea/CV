@@ -68,7 +68,8 @@ hr {
 
 .bottom-container {
     background-color: #66bfbf;
-    padding: 50px 0 20px
+    padding: 50px 0 20px;
+    margin: 90px auto 0;
 }
 
 .webdev {
@@ -96,11 +97,15 @@ hr {
     margin: 100px auto 100px auto;
     text-align: left;
 }
+
+.gameSkills {
+    float:right;
+    align-items: flex-start;
+}
 .gamemaker {
     width: 20%;
     float: left;
     margin-right: 30px;
-    
 }
 .webDevv {
     width: 20%;
@@ -114,9 +119,6 @@ hr {
 
 }
 
-.student-skill {
-    clear: left;
-}
 
 .btn {
     background: #adbec9;
@@ -141,5 +143,30 @@ hr {
   }
 
   .contact-note {
-    
+    padding: 10px;
   }
+
+  @keyframes animateUser {
+    50%{
+        right: 30px;
+        top: -90px;
+    }
+}
+
+/*.imgBox #splash {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-35deg);
+    width: 160%;
+    filter: saturate(200%);
+    animation: animate 4s linear infinite;
+}*/
+
+@keyframes animate {
+    50%{
+        top: 49%;
+        left: 51%;
+        width: 155%;
+    }
+}
